@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Name=Youtube2Sonos
+Icon=/<insert path here>/icon/youtube-icon.png
+Exec=/<insert path here>/youtube/gui.py
