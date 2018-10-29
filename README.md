@@ -29,8 +29,12 @@ To install them all, execute the command below.
 
 ## Create samba share
 
-Create a network share via SAMBA.
-The app requires that following path is used:
+Create a publicly accessible network share via SAMBA named "music" pointing to:
+
+    /srv/music
+
+Create a directory named "youtube2sonos" inside the "music" directory. 
+If this directory is missing, app will try to create it.
 
     /srv/music/youtube2sonos
 
