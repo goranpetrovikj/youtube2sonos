@@ -11,8 +11,8 @@ from SonosController import SonosController
 HOSTNAME = socket.getfqdn()
 
 scriptDir = os.path.dirname(os.path.realpath(__file__))
-sambaDirLocal = '/srv/music/sonos2youtube'
-sambaDirPublic = '/music/sonos2youtube'
+sambaDirLocal = '/srv/music/youtube2sonos'
+sambaDirPublic = '/music/youtube2sonos'
 
 def getPublicSongUri(songFilename):
 	songName = os.path.split(songFilename)[-1]
